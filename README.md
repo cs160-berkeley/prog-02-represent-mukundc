@@ -1,14 +1,14 @@
 # PROG 02: Represent!
 
-Briefly describe your app here.
+This application helps you easily locate the Congressional Representatives from your location or anywhere in the Country. You can easily swipe through representatives on the watch or view a more detailed description on the phone.
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Mukund Chillakanti ([mukundc@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [your demo video title here] (https://link_to_your_video)
+See [https://www.youtube.com/watch?v=IiSsiK8sV1k] (https://www.youtube.com/watch?v=IiSsiK8sV1k)
 
 ## Screenshots
 
