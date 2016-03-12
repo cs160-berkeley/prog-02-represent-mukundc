@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mukundc.represent.MainActivity"
+    android:background="#0D3242"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Find your Congressional Representatives!"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="28dp" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_alignEnd="@+id/zipCodeButton"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location"
+        android:textSize="18dp"
+        android:id="@+id/currentLocationButton"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/zipLocation"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="or"
+        android:id="@+id/textView2"
+        android:autoText="false"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zipLocation"
+            android:hint="Enter Zipcode"
+            android:focusableInTouchMode="true"
+            android:textSize="20dp"
+            android:elegantTextHeight="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="normal"
+            android:typeface="sans"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="56dp" />
+
+        <ImageView
+            android:id="@+id/zipCodeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/bluearrow"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/zipLocation" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="4dp"
+            android:id="@+id/cv1"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/person_title1"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name1"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:civ_border_width="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="#FFFFFF"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/imageView1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="12dp"
+                        android:id="@+id/person_party1"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="13sp"
+                        autofit:minTextSize="9sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:id="@+id/person_website1"
+                        android:layout_below="@+id/person_party1"
+                        android:layout_toRightOf="@+id/imageView1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColorLink="#FFFFFF"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="13sp"
+                        autofit:minTextSize="9sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_email1"
+                        android:layout_below="@+id/person_website1"
+                        android:layout_toRightOf="@+id/imageView1"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/person_party1"
+                        android:src="@mipmap/bluearrow"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="40dp"
+                        android:clickable="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignBottom="@+id/person_email1" />
+                </RelativeLayout>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/tweetlinear1"
+                    android:layout_marginTop="10dp"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="4dp"
+            android:id="@+id/cv2"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/person_title2"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name2"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:civ_border_width="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="#FFFFFF"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/imageView2"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="12dp"
+                        android:id="@+id/person_party2"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        autofit:minTextSize="8sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_website2"
+                        android:layout_below="@+id/person_party2"
+                        android:layout_toRightOf="@+id/imageView2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        autofit:minTextSize="8sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_email2"
+                        android:layout_below="@+id/person_website2"
+                        android:layout_toRightOf="@+id/imageView2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/person_party2"
+                        android:src="@mipmap/bluearrow"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="40dp"
+                        android:clickable="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignBottom="@+id/person_email2" />
+                </RelativeLayout>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/tweetlinear2"
+                    android:layout_marginTop="10dp"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="4dp"
+            android:id="@+id/cv3"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/person_title3"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name3"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:civ_border_width="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="#FFFFFF"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="12dp"
+                        android:id="@+id/person_party3"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        autofit:minTextSize="8sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_website3"
+                        android:layout_below="@+id/person_party3"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        autofit:minTextSize="8sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_email3"
+                        android:layout_below="@+id/person_website3"
+                        android:layout_toRightOf="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/person_party3"
+                        android:src="@mipmap/bluearrow"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="40dp"
+                        android:clickable="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignBottom="@+id/person_email3" />
+                </RelativeLayout>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/tweetlinear3"
+                    android:layout_marginTop="10dp"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="4dp"
+            android:visibility="gone"
+            android:id="@+id/cv4"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/person_title4"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name4"
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imageView4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:civ_border_width="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="#FFFFFF"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="12dp"
+                        android:id="@+id/person_party4"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        autofit:minTextSize="8sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_website4"
+                        android:layout_below="@+id/person_party4"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:maxLines="1"
+                        android:textSize="12sp"
+                        autofit:minTextSize="8sp"
+                        android:autoLink="all"
+                        android:textColor="#FFFFFF"
+                        android:textColorLink="#FFFFFF"
+                        android:id="@+id/person_email4"
+                        android:layout_below="@+id/person_website4"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/person_party4"
+                        android:src="@mipmap/bluearrow"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="40dp"
+                        android:clickable="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignBottom="@+id/person_email4" />
+                </RelativeLayout>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/tweetlinear4"
+                    android:layout_marginTop="10dp"
+                    >
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
+
