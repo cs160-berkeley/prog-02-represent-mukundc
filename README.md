@@ -8,11 +8,10 @@ Mukund Chillakanti ([mukundc@berkeley.edu](mailto:your_email@berkeley.edu))
 
 ## Demo Video
 
-See [https://www.youtube.com/watch?v=IiSsiK8sV1k] (https://www.youtube.com/watch?v=IiSsiK8sV1k)
+See [https://youtu.be/3tj_fvLLM6U] (https://youtu.be/3tj_fvLLM6U)
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
