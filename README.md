@@ -11,7 +11,12 @@ Mukund Chillakanti ([mukundc@berkeley.edu](mailto:your_email@berkeley.edu))
 See [https://youtu.be/3tj_fvLLM6U] (https://youtu.be/3tj_fvLLM6U)
 
 ## Screenshots
-
+<img src="screenshots/1.png" height="400" alt="Screenshot 1 "/>
+<img src="screenshots/2.png" height="400" alt="Screenshot 2"/>
+<img src="screenshots/3.png" height="400" alt="Screenshot 3"/>
+<img src="screenshots/6.jpg" height="400" alt="Screenshot 4"/>
+<img src="screenshots/7.jpg" height="400" alt="Screenshot 5"/>
+<img src="screenshots/8.jpg" height="400" alt="Screenshot 6"/>
 
 ## Acknowledgments
 
